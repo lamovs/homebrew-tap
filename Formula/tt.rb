@@ -1,28 +1,28 @@
 class Tt < Formula
   desc "TickTick CLI and TUI"
   homepage "https://github.com/lamovs/tt"
-  version "0.3.0"
+  version "0.3.2"
 
   on_macos do
     depends_on macos: :ventura
     on_arm do
-      url "https://github.com/lamovs/tt/releases/download/v0.3.0/tt_0.3.0_darwin_arm64.tar.gz"
-      sha256 "87feabd214763028584f672ccdc2292795aef92ee2faf94a9a99ecc962e80c9a"
+      url "https://github.com/lamovs/tt/releases/download/v0.3.2/tt_0.3.2_darwin_arm64.tar.gz"
+      sha256 "a0e083a53b2ad284fc4348ec968232da4f3d1f74857dd11f0d40fa6aa5dd6a66"
     end
     on_intel do
-      url "https://github.com/lamovs/tt/releases/download/v0.3.0/tt_0.3.0_darwin_amd64.tar.gz"
-      sha256 "cbfe42f503e2b62e16e39195eed1268d30947fca4557597158f459153d19a9de"
+      url "https://github.com/lamovs/tt/releases/download/v0.3.2/tt_0.3.2_darwin_amd64.tar.gz"
+      sha256 "0c7fd19fa0a5ec147645c0402c96852194e445ab2f4b3a9accfac491de66d2ff"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/lamovs/tt/releases/download/v0.3.0/tt_0.3.0_linux_arm64.tar.gz"
-      sha256 "3e86fb7c8ae70b1ef4d3e380ad1aba71906bac8846833c3795443bd6e3efffc7"
+      url "https://github.com/lamovs/tt/releases/download/v0.3.2/tt_0.3.2_linux_arm64.tar.gz"
+      sha256 "c3f83d01d45fb40be2de7cc300918ffbf5a258d39f5f4aa8f67520b0cf2de113"
     end
     on_intel do
-      url "https://github.com/lamovs/tt/releases/download/v0.3.0/tt_0.3.0_linux_amd64.tar.gz"
-      sha256 "8c4a71c641b6210f2de62bc6ab4f70e4c5e842b7d5699f8fa36f2e9f9aaf41dc"
+      url "https://github.com/lamovs/tt/releases/download/v0.3.2/tt_0.3.2_linux_amd64.tar.gz"
+      sha256 "ce7cc7a7524beec869a5bbd2014d7cbecae702104dde6ae53a2415479cae277a"
     end
   end
 
